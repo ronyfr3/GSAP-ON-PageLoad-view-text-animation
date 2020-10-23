@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.home{
+    margin: 20px auto;
+    font-family: 'Merriweather', serif;
+}
+img{
+    width: 220px;
+    height: 200px;
+    border-radius: 5px;
+}
+.div-bottom{
+  border-bottom: 2px solid black;
+  width: 70px;
+}
+.about-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    outline: none;
+    border: none;
+}
+.para-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 50px auto;
+}
+.paraText{
+    width: 350px;
+    height: 250px;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+.para{
+    color: rgb(85, 83, 83);
+}
+.address{
+    color: rgb(80, 77, 77);
+}
+.addresses{
+   margin: 50px auto;
+}
+address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* without it img go up to navbar */
+.indexImg{
+    z-index: -1;
+}
